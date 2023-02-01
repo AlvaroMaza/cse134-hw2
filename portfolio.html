@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio Alvaro Maza</title>
+        <link rel = 'icon' href = 'multimedia/icon.ico'>
+        <style>
+            h2 {color:grey;}
+          </style>
+
+    </head>
+
+    <body>
+        <header>
+            
+            <h1>Álvaro Maza</h1>
+            <p>Data Scientist<p>
+
+            <p>"The <b>goal</b> is to transform <i>data</i> into information, and information into <em>insight</em>"</p>
+        </header>
+        <main>
+            <section>
+                <h2>About me</h2>
+
+                <picture>
+                    <source srcset="multimedia/me.jpg" alt="Photo of me"  media = "(min-width: 800px)" />
+
+                    <img src = "multimedia/me_small.jpg" alt="Photo of me" width = "250"/>
+                </picture>
+
+                <p>Hi, my name is <strong>Álvaro</strong>. I am currently studying at <em>UCSD</em> during my Junior year as an exchange student,
+                    but I am originally from <span style="color:red">Spain</span>, where I am majoring in Data Science and Engineering at Carlos III.
+                </p>
+                <aside>
+                    <p>Listen to my country anthem!</p>
+                    <audio controls>
+                        <source src = "multimedia/spanish-anthem.mp3"/ alt="Spanish Anthem">
+                    </audio>
+                    <p>And watch one of the best moments for us</p>
+                    <iframe src="https://www.youtube.com/embed/6-EqlQMPmDI" height="200" width="300" title="Worldcup Goal"></iframe>
+
+                    <details>
+                        <summary>2010 Worldcup</summary>
+                        <p>Spain won it in the extra time thanks to this amazing goal!</p>
+                    </details>
+                    </br>
+                </aside>
+
+                    <h3>Other interests</h3>
+                    <p>I am mainly focused in Data Science, but I also enjoy:</p>
+                    <ol>
+                        <li>Finance (I am doing a minor of it)</li>
+                        <li>Chess</li>
+                        <li><code>coding()</code> ;)</li>
+                        <li>Basketball</li>
+                    </ol>
+
+                <p>If you share hobbies with me do not hesitate, and get in touch with me!</p>
+
+                <label for="hobbies">Choose the one you like the most:</label>
+                <input list="hobbieslist" id="hobbies" name="hobbies">
+
+                <datalist id="hobbieslist">
+                    <option value="Finance">
+                    <option value="Chess">
+                    <option value="coding">
+                    <option value="Basketball">
+                </datalist>
+
+                <hr>
+
+                <table>
+                    <caption>Work experience</caption>
+                    <colgroup>
+                        <col span="2" style="background-color:lightgrey">
+                    </colgroup>
+ 
+                    <tr>
+                      <th>Position</th>
+                      <th>Time of start</th>
+                    </tr>
+                    <tr>
+                      <td>Head of Content at Business Anaylitics Association</td>
+                      <td>10/2022</td>
+                    </tr>
+                    <tr>
+                      <td>Programming tutor during the summer</td>
+                      <td>05/2021</td>
+                    </tr>
+                  </table>
+
+                <p>I expect to graduate in 2024, and right now I am open to hear about job offers, so if you want to see some of my recent work
+                    keep
+                </p>
+                <pre>
+    scro
+
+    lling!   
+                                
+                </pre>
+
+            </section>
+            <section>
+                <h2>Portfolio</h2>
+                <h3>Project 1: Credit decisioning model</h3>
+                <p>For this project, I created a logistic regression to decide what mortages to give and what not</p>
+
+                <h3>Project 2: Ridge vs Lasso</h3>
+                <p>For this project, I applied different regularization techniques to some data sets with 
+                    different statistical properties, and analized how they performed.
+                </p>
+
+                <h3>Project 3: CNN in MNIST</h3>
+                <p>For this project, I used convolutional neural networks to try to correctly label images of digits</p>
+
+                <p>For privacy reasons, I prefer to not publicly post my code, but feel free to contact my and ask for it if you have any interest</p>
+            </section>
+
+            <div>
+                <label for="ideas">Suggest what other kind of projects from me you would like to see:</label>
+                    <select  name="ideas" id="ideas">
+                        <optgroup label="Data Science">
+                            <option value="queries">SQL Queries</option>
+                            <option value="clustering">Advance Clustering</option>
+                        </optgroup>
+                        <optgroup label="Quantitative Finance">
+                            <option value="derivatives">derivatives option pricing using MonteCarlo</option>
+                            <option value="arma">ARMA(n) models</option>
+                        </optgroup>
+                    </select>
+                <p>Or give me new ideas: </p>
+                <form action="">
+                    <p><label for="ideas">Any suggestions?</label></p>
+                    <textarea id="ideas" name="ideas" rows="4" cols="50">Anything will be considered!</textarea>
+                    </br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <section>
+                <h2>Contact</h2>
+
+                <nav>
+                    <ul>
+                        <li> <a href="https://www.linkedin.com/in/alvaromazamontesinos/">My LinkedIn</a> </li>
+
+                        <li><a href="https://www.instagram.com/elonmusk/">My Instagram</a> </li>
+                    </ul>
+
+                </nav>
+                
+                <p>You can also send me you email:</p>
+                <form action="" method="get" id="emailform">
+                    <fieldset>
+                    <legend>Your contact info:</legend>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+                    </fieldset>
+                  </form>
+                  
+                  <button type="submit" form="emailform" value="Submit">Submit</button>
+            </section>
+            
+
+        </main>
+        <footer>
+            <p>Website created by Álvaro Maza</p>
+
+
+            <template>
+                <h2>You just got...</h2>
+            </template>
+
+            <figure>
+                <video width="320" height="240" controls>
+                        <source src="multimedia/video.mp4" alt="Rick Roll" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+                <figcaption>
+                    Last but very important video
+                    <span>
+                        <svg width="10" height="10">
+                            <circle cx="5" cy="5" r="4" stroke="black" stroke-width="1" fill="red" />
+                          </svg>
+                    </span>
+                </figcaption>
+            </figure>
+
+            <canvas id="myCanvasTest">
+                Your browser does not support the canvas tag.
+            </canvas>
+                
+            <script>
+            var canvas = document.getElementById("myCanvasTest");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#000000";
+            ctx.fillRect(100, 0, 300, 10);
+            </script>
+
+
+
+        </footer>
+        
+        
+
+
+
+    </body>
+</html>
+
+
