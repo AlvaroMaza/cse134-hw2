@@ -23,7 +23,7 @@
                 <h2>About me</h2>
 
                 <picture>
-                    <source srcset="multimedia/me.jpg" alt="Photo of me"  media = "(min-width: 800px)" />
+                    <source srcset="multimedia/me.jpg" media = "(min-width: 800px)" />
 
                     <img src = "multimedia/me_small.jpg" alt="Photo of me" width = "250"/>
                 </picture>
@@ -34,7 +34,7 @@
                 <aside>
                     <p>Listen to my country anthem!</p>
                     <audio controls>
-                        <source src = "multimedia/spanish-anthem.mp3"/ alt="Spanish Anthem">
+                        <source src = "multimedia/spanish-anthem.mp3"/>
                     </audio>
                     <p>And watch one of the best moments for us</p>
                     <iframe src="https://www.youtube.com/embed/6-EqlQMPmDI" height="200" width="300" title="Worldcup Goal"></iframe>
@@ -43,7 +43,7 @@
                         <summary>2010 Worldcup</summary>
                         <p>Spain won it in the extra time thanks to this amazing goal!</p>
                     </details>
-                    </br>
+                    <br>
                 </aside>
 
                     <h3>Other interests</h3>
@@ -117,8 +117,8 @@
             </section>
 
             <div>
-                <label for="ideas">Suggest what other kind of projects from me you would like to see:</label>
-                    <select  name="ideas" id="ideas">
+                <label for="suggestion">Suggest what other kind of projects from me you would like to see:</label>
+                    <select  name="suggestion" id="suggestion">
                         <optgroup label="Data Science">
                             <option value="queries">SQL Queries</option>
                             <option value="clustering">Advance Clustering</option>
@@ -129,10 +129,10 @@
                         </optgroup>
                     </select>
                 <p>Or give me new ideas: </p>
-                <form action="">
+                <form action="#">
                     <p><label for="ideas">Any suggestions?</label></p>
                     <textarea id="ideas" name="ideas" rows="4" cols="50">Anything will be considered!</textarea>
-                    </br>
+                    <br>
                     <input type="submit" value="Submit">
                 </form>
             </div>
@@ -149,7 +149,7 @@
                 </nav>
                 
                 <p>You can also send me you email:</p>
-                <form action="" method="get" id="emailform">
+                <form action="#" method="get" id="emailform">
                     <fieldset>
                     <legend>Your contact info:</legend>
                     <label for="email">Email:</label>
@@ -174,7 +174,7 @@
 
             <figure>
                 <video width="320" height="240" controls>
-                        <source src="multimedia/video.mp4" alt="Rick Roll" type="video/mp4">
+                        <source src="multimedia/video.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                 </video>
                 <figcaption>
